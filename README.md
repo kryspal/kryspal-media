@@ -36,7 +36,7 @@ Kryspal Media fixes each of these.
 - **Isolated, signed plugins.** Separate processes over gRPC; signed catalog, verified hashes.
 - **Hardened.** Runs as non-root; release binaries are signed and self-checked.
 
-## Highlights
+## Features
 
 - **Fast on huge libraries.** Nearly 200,000 movies, browsing in under 50 ms (NAS test).
 - **Original quality.** Direct play keeps 4K, HDR and lossless audio. No video transcoding.
