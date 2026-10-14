@@ -7,13 +7,11 @@
   </picture>
 </p>
 
-# Kryspal Media
+<p align="center"><strong>片库再大，依然飞快的媒体服务器。</strong></p>
 
-**你的片库，值得好好播放。**
+<p align="center"><em>自托管，原画质播放，近 20 万部电影也不卡。</em></p>
 
-快速的自托管媒体服务器，管理你自己的电影和剧集。
-
-**官网：[media.kryspal.net/zh](https://media.kryspal.net/zh/)**
+<p align="center"><strong>官网：<a href="https://media.kryspal.net/zh/">media.kryspal.net/zh</a></strong></p>
 
 <p align="center"><img alt="Kryspal Media 网页播放器首页" src="assets/viewer-home.webp" width="860"></p>
 

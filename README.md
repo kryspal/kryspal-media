@@ -7,13 +7,11 @@
   </picture>
 </p>
 
-# Kryspal Media
+<p align="center"><strong>The media server that stays fast at any library size.</strong></p>
 
-**Your library, beautifully played.**
+<p align="center"><em>Self-hosted, original quality, and instant with nearly 200,000 movies.</em></p>
 
-A fast, self-hosted media server for your own movies and series.
-
-**Website: [media.kryspal.net](https://media.kryspal.net/)**
+<p align="center"><strong>Website: <a href="https://media.kryspal.net/">media.kryspal.net</a></strong></p>
 
 <p align="center"><img alt="Kryspal Media web player home page" src="assets/viewer-home.webp" width="860"></p>
 
