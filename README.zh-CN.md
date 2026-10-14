@@ -9,6 +9,6 @@
 
 # Kryspal Media
 
-Kryspal Media 是一款快速的自托管媒体服务器：用 Docker 装在 NAS 或小型主机上，指向你的电影和剧集，就能在你已有的设备上观看。
+Kryspal Media 是为大片库而生的自托管媒体服务器：近 20 万部电影也能保持流畅，原画质直接播放、不转码视频，兼容 Emby 和 Jellyfin 的第三方播放器。FREE 版就是完整的媒体服务器。
 
 更多介绍、安装与文档请见[官网中文版](https://media.kryspal.net/zh/)。
