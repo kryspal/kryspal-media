@@ -25,6 +25,17 @@
 
 Kryspal Media fixes each of these.
 
+## Under the hood
+
+- **A Go server.** One static binary, light on memory and CPU, even on a NAS.
+- **PostgreSQL does the work.** Queries, sorting and filtering run in the database.
+- **Fast search.** Trigram and bigram indexes in PostgreSQL.
+- **Native media parsing.** A Go parser reads MKV and MP4 and extracts embedded subtitles.
+- **Remux, not transcode.** Browser playback only repackages, and converts audio if needed.
+- **Audio fingerprints.** Intros and outros are matched across the whole season (PRO).
+- **Isolated, signed plugins.** Separate processes over gRPC; signed catalog, verified hashes.
+- **Hardened.** Runs as non-root; release binaries are signed and self-checked.
+
 ## Highlights
 
 - **Fast on huge libraries.** Nearly 200,000 movies, browsing in under 50 ms (NAS test).
