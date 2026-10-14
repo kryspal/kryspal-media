@@ -11,6 +11,8 @@
 
 **Your library, beautifully played.** A fast, self-hosted media server for your own movies and series. Run it with Docker on a NAS or any small machine and watch on the devices you already have.
 
+**Website: [media.kryspal.net](https://media.kryspal.net/)**
+
 <p align="center"><img alt="Kryspal Media web player home page" src="assets/viewer-home.webp" width="860"></p>
 
 ## Why we built it
