@@ -64,6 +64,8 @@ Kryspal Media 把这些问题一一解决。
 curl -fsSL https://media.kryspal.net/install.sh | bash -s -- --media /srv/media
 ```
 
+把 `/srv/media` 换成你的媒体文件夹。更多文件夹可稍后在 `compose.yaml` 中添加。
+
 想用 Docker Compose？见[安装指南](https://media.kryspal.net/zh/docs/install/)。
 
 一个 Compose 文件，两个容器：服务器和 PostgreSQL。
