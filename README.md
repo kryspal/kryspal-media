@@ -11,6 +11,14 @@
 
 <p align="center"><em>Self-hosted, original quality, and instant with nearly 200,000 movies.</em></p>
 
+<p align="center">
+  <a href="https://github.com/kryspal/kryspal-media/releases"><img alt="Latest release" src="https://img.shields.io/github/v/release/kryspal/kryspal-media?style=flat&labelColor=0d1726&color=086a8b"></a>
+  <img alt="Platforms: amd64 and arm64" src="https://img.shields.io/badge/platform-amd64%20%7C%20arm64-086a8b?style=flat&labelColor=0d1726">
+  <img alt="Docker Compose" src="https://img.shields.io/badge/docker-compose-086a8b?style=flat&labelColor=0d1726">
+  <img alt="Self-hosted" src="https://img.shields.io/badge/self--hosted-yes-086a8b?style=flat&labelColor=0d1726">
+  <a href="https://github.com/kryspal/kryspal-media/discussions"><img alt="Discussions" src="https://img.shields.io/badge/discussions-join-086a8b?style=flat&labelColor=0d1726"></a>
+</p>
+
 <p align="center"><strong>Website: <a href="https://media.kryspal.net/">media.kryspal.net</a></strong></p>
 
 <p align="center"><img alt="Kryspal Media web player home page" src="assets/viewer-home.webp" width="860"></p>
@@ -51,9 +59,15 @@ Kryspal Media fixes each of these.
 
 ## Install
 
+```sh
+curl -fsSL https://media.kryspal.net/install.sh | bash -s -- --media /srv/media
+```
+
+Read the script first, or use your NAS container manager? See the [installation guide](https://media.kryspal.net/docs/install/).
+
 Two containers (server and PostgreSQL), one Docker Compose file, amd64 and arm64.
 
-[Installation guide](https://media.kryspal.net/docs/install/) · [Releases](https://github.com/kryspal/kryspal-media/releases)
+[Releases](https://github.com/kryspal/kryspal-media/releases)
 
 ## Plans
 

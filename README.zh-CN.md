@@ -11,6 +11,14 @@
 
 <p align="center"><em>自托管，原画质播放，近 20 万部电影也不卡。</em></p>
 
+<p align="center">
+  <a href="https://github.com/kryspal/kryspal-media/releases"><img alt="Latest release" src="https://img.shields.io/github/v/release/kryspal/kryspal-media?style=flat&labelColor=0d1726&color=086a8b"></a>
+  <img alt="Platforms: amd64 and arm64" src="https://img.shields.io/badge/platform-amd64%20%7C%20arm64-086a8b?style=flat&labelColor=0d1726">
+  <img alt="Docker Compose" src="https://img.shields.io/badge/docker-compose-086a8b?style=flat&labelColor=0d1726">
+  <img alt="Self-hosted" src="https://img.shields.io/badge/self--hosted-yes-086a8b?style=flat&labelColor=0d1726">
+  <a href="https://github.com/kryspal/kryspal-media/discussions"><img alt="Discussions" src="https://img.shields.io/badge/discussions-join-086a8b?style=flat&labelColor=0d1726"></a>
+</p>
+
 <p align="center"><strong>官网：<a href="https://media.kryspal.net/zh/">media.kryspal.net/zh</a></strong></p>
 
 <p align="center"><img alt="Kryspal Media 网页播放器首页" src="assets/viewer-home.webp" width="860"></p>
@@ -52,11 +60,17 @@ Kryspal Media 把这些问题一一解决。
 
 ## 安装
 
+```sh
+curl -fsSL https://media.kryspal.net/install.sh | bash -s -- --media /srv/media
+```
+
+想先看脚本，或在 NAS 的容器管理器里粘贴 compose？见[安装指南](https://media.kryspal.net/zh/docs/install/)。
+
 一个 Compose 文件，两个容器：服务器和 PostgreSQL。
 
 支持 amd64 和 arm64。
 
-[安装指南](https://media.kryspal.net/zh/docs/install/) · [版本发布](https://github.com/kryspal/kryspal-media/releases)
+[版本发布](https://github.com/kryspal/kryspal-media/releases)
 
 ## 方案
 
