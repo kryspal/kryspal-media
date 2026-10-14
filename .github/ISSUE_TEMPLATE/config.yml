@@ -1,0 +1,20 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Ask a question
+    url: https://github.com/kryspal/kryspal-media/discussions/new?category=q-a
+    about: Setup, libraries, players. Questions go to Discussions.
+  - name: Share an idea
+    url: https://github.com/kryspal/kryspal-media/discussions/new?category=ideas
+    about: Early ideas and wishes go to Discussions.
+  - name: Plugin problems
+    url: https://github.com/kryspal/kryspal-media/discussions/new?category=plugins
+    about: Bugs in an official plugin belong in that plugin's own repository (plugin-tmdb, plugin-fanart, ...). Problems with a third-party plugin go to its author.
+  - name: Documentation
+    url: https://kryspal.net/docs/
+    about: Install, setup, players and plans.
+  - name: Licenses and purchases
+    url: https://kryspal.net/contact/
+    about: Activation, billing and refunds are handled by support@kryspal.net, never in public issues.
+  - name: Report a security issue privately
+    url: https://github.com/kryspal/kryspal-media/security/advisories/new
+    about: Do not open a public issue for a vulnerability.

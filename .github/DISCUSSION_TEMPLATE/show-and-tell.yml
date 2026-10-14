@@ -1,0 +1,10 @@
+body:
+  - type: markdown
+    attributes:
+      value: Share your setup, your libraries and your tips. Please remove private titles, paths, domains and tokens from anything you post.
+  - type: textarea
+    id: story
+    attributes:
+      label: What would you like to share?
+    validations:
+      required: true

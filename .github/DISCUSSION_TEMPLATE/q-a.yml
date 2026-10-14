@@ -1,0 +1,32 @@
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Check the [documentation](https://kryspal.net/docs/) first. When you paste logs, remove license codes, tokens, domains and private titles or paths.
+  - type: textarea
+    id: goal
+    attributes:
+      label: What are you trying to do?
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: What happened instead?
+  - type: input
+    id: version
+    attributes:
+      label: Server version
+  - type: input
+    id: install
+    attributes:
+      label: Install method and NAS or system
+  - type: input
+    id: client
+    attributes:
+      label: Client and version
+  - type: textarea
+    id: logs
+    attributes:
+      label: Log excerpt (optional)
+      render: text

@@ -1,0 +1,86 @@
+name: Bug report
+description: Something does not work as described.
+title: "[Bug] "
+labels: ["type: bug", "status: needs-triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time. Questions and ideas belong in [Discussions](https://github.com/kryspal/kryspal-media/discussions). Bugs in an official plugin belong in that plugin's repository.
+
+        **Privacy:** before you paste logs or screenshots, remove license codes and emails, API keys and tokens, your public domain or IP, signed playback URLs, and any media titles or paths you consider private.
+  - type: textarea
+    id: summary
+    attributes:
+      label: What happened?
+      description: What did you do, what did you expect, and what happened instead?
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Server version
+      description: Shown in the admin console under System → About.
+      placeholder: "1.0.0"
+    validations:
+      required: true
+  - type: dropdown
+    id: install
+    attributes:
+      label: Install method
+      options:
+        - Docker Compose in a NAS container manager
+        - Docker Compose on Linux
+        - docker run
+        - Other
+    validations:
+      required: true
+  - type: input
+    id: system
+    attributes:
+      label: NAS or system
+      description: Model or OS and version, and the CPU architecture (amd64 or arm64).
+      placeholder: "NAS model, DSM/OS version, arm64"
+    validations:
+      required: true
+  - type: input
+    id: client
+    attributes:
+      label: Client and version
+      description: The web player and browser version, or the 3rd-party player and its version. Say whether the server is in Emby or Jellyfin compatibility mode.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1.
+        2.
+        3.
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Log excerpt
+      description: From System → System log (Export). Only the lines around the problem, with sensitive details removed.
+      render: text
+    validations:
+      required: true
+  - type: textarea
+    id: extra
+    attributes:
+      label: Anything else
+      description: Screenshots, library type (local or cloud mount), plan (only if it relates to licensing).
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Before you submit
+      options:
+        - label: I searched existing issues and discussions.
+          required: true
+        - label: I removed private information from logs and screenshots.
+          required: true
+        - label: This is not a bug in a plugin (plugin bugs go to the plugin's repository).
+          required: true

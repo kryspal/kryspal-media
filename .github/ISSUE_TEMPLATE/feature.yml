@@ -1,0 +1,28 @@
+name: Feature request
+description: A concrete, well-scoped improvement.
+title: "[Feature] "
+labels: ["type: enhancement", "status: needs-triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Early ideas are welcome in [Discussions → Ideas](https://github.com/kryspal/kryspal-media/discussions/categories/ideas). Open an issue here when the need is concrete and well scoped.
+  - type: textarea
+    id: problem
+    attributes:
+      label: What problem do you want to solve?
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: What would you like to happen?
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: What have you tried instead?
+  - type: textarea
+    id: who
+    attributes:
+      label: Who else benefits?
+      description: Your setup helps us judge how common the need is (player, library size, NAS or system).

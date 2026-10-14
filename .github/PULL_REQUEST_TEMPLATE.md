@@ -1,0 +1,1 @@
+This repository has no source code. Pull requests are accepted only for typo and wording fixes in the documents. For anything else, please use [Discussions](https://github.com/kryspal/kryspal-media/discussions).

@@ -1,0 +1,30 @@
+body:
+  - type: markdown
+    attributes:
+      value: Bugs in an official plugin go to that plugin's repository. This category is for questions and discussion about plugins and the Plugin SDK.
+  - type: dropdown
+    id: plugin
+    attributes:
+      label: Which plugin?
+      options:
+        - tmdb
+        - fanart
+        - dlna
+        - opensubtitles
+        - assrt
+        - introdb
+        - nameparse
+        - Another plugin
+        - Plugin SDK
+    validations:
+      required: true
+  - type: input
+    id: versions
+    attributes:
+      label: Plugin and server versions
+  - type: textarea
+    id: question
+    attributes:
+      label: What would you like to know or discuss?
+    validations:
+      required: true
