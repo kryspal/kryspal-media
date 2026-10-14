@@ -2,11 +2,11 @@
 
 | I want to... | Go to |
 | --- | --- |
-| Set something up or learn how it works | [Documentation](https://kryspal.net/docs/), then [Discussions → Q&A](https://github.com/kryspal/kryspal-media/discussions/categories/q-a) |
+| Set something up or learn how it works | [Documentation](https://media.kryspal.net/docs/), then [Discussions → Q&A](https://github.com/kryspal/kryspal-media/discussions/categories/q-a) |
 | Report a bug | [Bug report form](https://github.com/kryspal/kryspal-media/issues/new?template=bug.yml) |
 | Suggest an idea | [Discussions → Ideas](https://github.com/kryspal/kryspal-media/discussions/categories/ideas) |
 | Ask about a plugin | The plugin's own repository for official plugins, or [Discussions → Plugins](https://github.com/kryspal/kryspal-media/discussions/categories/plugins) |
-| Activate a license, billing or refunds | support@kryspal.net or the [contact page](https://kryspal.net/contact/). Never post a license code in public. |
+| Activate a license, billing or refunds | support@kryspal.net or the [contact page](https://media.kryspal.net/contact/). Never post a license code in public. |
 | Report a security problem | See [SECURITY.md](SECURITY.md). Do not use public issues. |
 
 Replies come from the maintainers and the community during working hours, on a best-effort basis. There is no service-level agreement.

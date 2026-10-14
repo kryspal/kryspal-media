@@ -4,7 +4,7 @@ Kryspal Media's server is proprietary, so this repository has no source code and
 
 - **Report bugs.** Use the [bug report form](https://github.com/kryspal/kryspal-media/issues/new?template=bug.yml) and fill in every field.
 - **Share ideas.** Start in [Discussions → Ideas](https://github.com/kryspal/kryspal-media/discussions/categories/ideas). Open a feature request only for a concrete, well-scoped need.
-- **Report documentation mistakes** on [kryspal.net/docs](https://kryspal.net/docs/).
+- **Report documentation mistakes** on [kryspal.net/docs](https://media.kryspal.net/docs/).
 - **Write plugins.** The [Plugin SDK](https://github.com/kryspal/plugin-sdk) and its documentation are open source.
 - **Improve the open-source plugins** in their own repositories (plugin-tmdb, plugin-fanart, plugin-dlna, plugin-opensubtitles, plugin-assrt, plugin-introdb).
 
