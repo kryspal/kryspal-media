@@ -64,7 +64,7 @@ Kryspal Media 把这些问题一一解决。
 curl -fsSL https://media.kryspal.net/install.sh | bash -s -- --media /srv/media
 ```
 
-把 `/srv/media` 换成你的媒体文件夹。更多文件夹可稍后在 `compose.yaml` 中添加。
+把 `/srv/media` 换成你的媒体文件夹。更多文件夹请重复使用 `--media`。
 
 想用 Docker Compose？见[安装指南](https://media.kryspal.net/zh/docs/install/)。
 

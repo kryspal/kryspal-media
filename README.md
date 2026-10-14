@@ -63,7 +63,7 @@ Kryspal Media fixes each of these.
 curl -fsSL https://media.kryspal.net/install.sh | bash -s -- --media /srv/media
 ```
 
-Replace `/srv/media` with your media folder. Add more later in `compose.yaml`.
+Replace `/srv/media` with your media folder. Repeat `--media` for more folders.
 
 Prefer Docker Compose? See the [installation guide](https://media.kryspal.net/docs/install/).
 
