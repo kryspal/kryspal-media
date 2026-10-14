@@ -63,7 +63,7 @@ Kryspal Media fixes each of these.
 curl -fsSL https://media.kryspal.net/install.sh | bash -s -- --media /srv/media
 ```
 
-Read the script first, or use your NAS container manager? See the [installation guide](https://media.kryspal.net/docs/install/).
+Prefer Docker Compose? See the [installation guide](https://media.kryspal.net/docs/install/).
 
 Two containers (server and PostgreSQL), one Docker Compose file, amd64 and arm64.
 
