@@ -15,7 +15,7 @@
 
 ## Why we built it
 
-<!-- DRAFT: the owner will replace this with his own story. -->
+<!-- DRAFT: the owner will replace this with the owner's own story. -->
 We like owning our media, but the media servers we used kept getting in the way. Once the library grew, browsing and filtering slowed down and a scan could take hours. With cloud-mounted libraries, scanning and reading media info sent so many requests that the drive rate-limited us, and we worried about the account. Servers built around transcoding kept the NAS processor busy, although most players can play the original file directly. When file names were untidy, matching went wrong: one film turned into several entries and its versions got mixed up. And some important features sat behind a paid plan or an online account, so working offline or moving to a new machine broke things. Kryspal Media is our answer to each of these.
 
 ## Highlights
