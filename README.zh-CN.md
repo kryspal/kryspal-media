@@ -21,6 +21,8 @@
 
 <p align="center"><strong>官网：<a href="https://media.kryspal.net/zh/">media.kryspal.net/zh</a></strong></p>
 
+<p align="center">状态：<strong>测试版</strong>。升级前请先备份数据库。</p>
+
 <p align="center"><img alt="Kryspal Media 网页播放器首页" src="assets/viewer-home.webp" width="860"></p>
 
 ## 为什么做这个产品
@@ -120,9 +122,16 @@ docker compose up -d
 
 ### 卸载
 
-`docker compose down` 会保留数据。`docker compose down -v` 会删除命名卷（设置和数据库）。你的媒体文件不会被修改（以只读方式挂载）。
+`docker compose down` 会保留数据。`docker compose down -v` 会删除命名卷（设置和数据库）。移除容器不会碰你的媒体文件夹；服务器写进去的文件（下载的字幕、NFO）会留在原处。
 
 [版本发布](https://github.com/kryspal/kryspal-media/releases)
+
+### 镜像
+
+| 镜像 | 标签 |
+| --- | --- |
+| `kryspal/kryspalmedia` | `0.9.0-beta`、`beta`、`latest` |
+| `kryspal/kryspalmedia-postgres` | `16`（带 pg_bigm 的 PostgreSQL 16） |
 
 ## 方案
 
@@ -138,4 +147,4 @@ FREE、PRO、MAX 的区别见[价格](https://media.kryspal.net/zh/pricing/)。
 
 [文档](https://media.kryspal.net/zh/docs/) · [Discussions](https://github.com/kryspal/kryspal-media/discussions) · [Issues](https://github.com/kryspal/kryspal-media/issues) · [SUPPORT.md](SUPPORT.md)
 
-Kryspal Media 是闭源软件。本仓库只有发布说明、问题跟踪和讨论区，不含源代码。
+Kryspal Media 是闭源软件。本仓库放发布说明、compose 示例、安装说明、问题跟踪和讨论区，不含源代码。第三方组件及其许可见每个版本附带的 `NOTICE.md`。
