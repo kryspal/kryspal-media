@@ -24,10 +24,10 @@ The [bug report form](https://github.com/kryspal/kryspal-media/issues/new?templa
 - **Steps that reproduce it**, and whether it happens every time or only sometimes.
 - **Your setup:** install method, NAS or system and CPU architecture, the client and its version, and whether the server is in Emby or Jellyfin compatibility mode.
 - **A log excerpt** from System → System log (Export): only the lines around the problem, with private details removed.
-- **For playback problems,** the player, whether it was direct play or a repackaged stream, and the container and codecs of the file (not its name).
+- **For playback problems,** the player, whether it was direct play or a repackaged stream (the web player shows this in the **Audio & subtitles** panel; 3rd-party players show it in their own playback info), and the container and codecs of the file (not its name), for example from MediaInfo or ffprobe.
 
 ## What happens next
 
-A maintainer reads new issues, adds labels, and asks for missing details. An issue that is missing details may wait until you add them, and may be closed if it stays unanswered. Issues we can reproduce are passed to the people who own that part of the product; we cannot say when a fix will ship.
+A maintainer reads new issues, adds labels, and asks for missing details. An issue that is missing details may wait until you add them, and may be closed if it stays unanswered for about two weeks. Issues we can reproduce are passed on for a fix; we cannot say when it will ship.
 
 Duplicates are closed with a link to the original: add what is new there. Questions and ideas are moved to Discussions.
