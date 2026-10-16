@@ -66,9 +66,61 @@ curl -fsSL https://media.kryspal.net/install.sh | bash -s -- --media /srv/media
 
 把 `/srv/media` 换成你的媒体文件夹。更多文件夹请重复使用 `--media`。
 
-NAS 请改用[安装指南](https://media.kryspal.net/zh/docs/install/)里的 Docker Compose 文件。
+NAS 或想手动安装，请按下面的步骤用 Docker Compose。更多说明见[安装指南](https://media.kryspal.net/zh/docs/install/)。
 
-一个 Compose 文件，两个容器：服务器和 PostgreSQL。需要 Docker 和 Compose v2，64 位 Linux（amd64 或 arm64），建议 4 GB 内存。
+一个 Compose 文件，两个容器：服务器和 PostgreSQL。需要 Docker 24 以上并带 Compose v2，64 位 Linux（amd64 或 arm64），建议 4 GB 内存。
+
+### 1. 取得文件
+
+从[版本发布](https://github.com/kryspal/kryspal-media/releases)页面下载 `compose.yaml`，放进一个空文件夹。没有 `.env` 文件，所有设置都在 `compose.yaml` 里。
+
+### 2. 设置
+
+编辑 `compose.yaml`：把 `/path/to/media:/media` 里的 `/path/to/media` 换成你的片库文件夹。每多一个片库文件夹，就多加一行。这是唯一要改的地方，数据库密码会在第一次启动时生成，并自动在两个容器之间共用。
+
+媒体文件夹是刻意以可读写方式挂载的：字幕下载和 NFO 回写（都是可选功能，默认关闭）会把文件写在视频文件旁边。只有你打开这些功能，服务器才会往里写。
+
+带文件 ACL 的 NAS（例如群晖）：在 `server` 服务里加上 `user: "<uid>:<gid>"`，填你媒体文件所有者的 uid 和 gid（用 `id -u`、`id -g` 查看）。
+
+### 3. 启动
+
+```sh
+docker compose up -d
+docker compose logs -f server      # 等到出现 "listening"
+```
+
+打开 `http://<主机>:5797`，按设置向导创建第一位管理员，然后在管理后台添加片库。
+
+### 4. 连接播放器
+
+在兼容 Emby 或 Jellyfin 的播放器里，服务器地址填 `http://<主机>:5797`。同一局域网内的播放器可能会自动找到服务器（需先在 compose 文件里启用 UDP 7359）。如果只用兼容 Jellyfin 的播放器，请在管理后台切换兼容模式。
+
+### 端口
+
+| 端口 | 用途 |
+| --- | --- |
+| 5797/tcp | HTTP：播放器、网页播放器、管理后台 |
+| 7359/udp | 局域网自动发现（compose 文件里默认注释掉；如果主机上没有别的程序占用这个端口，例如 Emby，就去掉 `#`） |
+| 5798/tcp | 仅供外网使用的端口（compose 文件里已有）：路由器只转发这一个端口，从它进来的请求视为来自家庭网络之外 |
+
+PostgreSQL 不对主机开放端口。需要远程访问时，请在 5797 端口前放一个带 HTTPS 的反向代理。
+
+### 升级
+
+```sh
+docker compose pull
+docker compose up -d
+```
+
+升级前先备份：管理后台 → 备份，或执行 `docker compose exec postgres pg_dump -U mediaserver mediaserver > backup.sql`。
+
+### 使用自己的 PostgreSQL
+
+需要 PostgreSQL 16 或更新版本，并已安装 `pg_bigm` 扩展（以有权限的用户执行一次 `CREATE EXTENSION pg_bigm`）。从 `compose.yaml` 中删掉 `postgres` 服务、`pgdata` 卷和 `depends_on`，再把 `DATABASE_URL` 设为你的连接字符串。
+
+### 卸载
+
+`docker compose down` 会保留数据。`docker compose down -v` 会删除命名卷（设置和数据库）。你的媒体文件不会被修改（以只读方式挂载）。
 
 [版本发布](https://github.com/kryspal/kryspal-media/releases)
 
