@@ -82,7 +82,7 @@ body:
     id: extra
     attributes:
       label: Anything else
-      description: Screenshots, library type (local or cloud mount), plan (only if it relates to licensing). For playback problems, also say whether it was direct play or a repackaged stream, and the container and codecs of the file (not its name), for example from MediaInfo or ffprobe.
+      description: Screenshots, library type (local or cloud mount), plan (only if it relates to licensing). For playback problems, also say whether it was direct play or a repackaged stream, and the container and codecs of the file (not its name), shown in the media info on the item's page in the admin console (or from MediaInfo or ffprobe).
   - type: checkboxes
     id: checks
     attributes:

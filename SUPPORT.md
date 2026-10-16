@@ -24,7 +24,7 @@ The [bug report form](https://github.com/kryspal/kryspal-media/issues/new?templa
 - **Steps that reproduce it**, and whether it happens every time or only sometimes.
 - **Your setup:** install method, NAS or system and CPU architecture, the client and its version, and whether the server is in Emby or Jellyfin compatibility mode.
 - **A log excerpt** from System → System log (Export): only the lines around the problem, with private details removed.
-- **For playback problems,** the player, whether it was direct play or a repackaged stream (the web player shows this in the **Audio & subtitles** panel; 3rd-party players show it in their own playback info), and the container and codecs of the file (not its name), for example from MediaInfo or ffprobe.
+- **For playback problems,** the player, whether it was direct play or a repackaged stream (the web player shows this in the **Audio & subtitles** panel; 3rd-party players show it in their own playback info), and the container and codecs of the file (not its name), shown in the media info on the item's page in the admin console (or from MediaInfo or ffprobe).
 
 ## What happens next
 
