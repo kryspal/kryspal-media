@@ -21,7 +21,7 @@ body:
     attributes:
       label: Server version
       description: Shown on the System page of the admin console. Please try the latest release first.
-      placeholder: "0.9.0-beta"
+      placeholder: "0.9.5-beta"
     validations:
       required: true
   - type: dropdown
