@@ -21,6 +21,8 @@
 
 <p align="center"><strong>Website: <a href="https://media.kryspal.net/">media.kryspal.net</a></strong></p>
 
+<p align="center"><strong><a href="https://demo.kryspal.net">Live demo</a></strong>: browse a sample library and the admin console in your browser. Sample data only.</p>
+
 <p align="center"><img alt="Kryspal Media web player home page" src="assets/viewer-home.webp" width="860"></p>
 
 ## Why we built it
