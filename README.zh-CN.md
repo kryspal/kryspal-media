@@ -116,7 +116,7 @@ docker compose pull
 docker compose up -d
 ```
 
-升级前先备份：管理后台 → 备份，或执行 `docker compose exec postgres pg_dump -U mediaserver mediaserver > backup.sql`。
+升级前先备份：管理后台 → 备份，或执行 `docker compose exec postgres pg_dump -U kryspal -d kryspal --format=custom > backup.dump`。
 
 ### 使用自己的 PostgreSQL
 
