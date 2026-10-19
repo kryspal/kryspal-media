@@ -12,7 +12,7 @@
 <p align="center"><em>Self-hosted, original quality, and instant with nearly 200,000 movies.</em></p>
 
 <p align="center">
-  <a href="https://github.com/kryspal/kryspal-media/releases"><img alt="Latest release" src="https://img.shields.io/github/v/release/kryspal/kryspal-media?style=flat&labelColor=0d1726&color=086a8b"></a>
+  <a href="https://github.com/kryspal/kryspal-media/releases"><img alt="Latest release" src="https://img.shields.io/github/v/release/kryspal/kryspal-media?include_prereleases&sort=semver&style=flat&labelColor=0d1726&color=086a8b"></a>
   <img alt="Platforms: amd64 and arm64" src="https://img.shields.io/badge/platform-amd64%20%7C%20arm64-086a8b?style=flat&labelColor=0d1726">
   <img alt="Docker Compose" src="https://img.shields.io/badge/docker-compose-086a8b?style=flat&labelColor=0d1726">
   <img alt="Self-hosted" src="https://img.shields.io/badge/self--hosted-yes-086a8b?style=flat&labelColor=0d1726">
