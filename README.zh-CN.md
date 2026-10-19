@@ -21,7 +21,7 @@
 
 <p align="center"><strong>官网：<a href="https://media.kryspal.net/zh/">media.kryspal.net/zh</a></strong></p>
 
-<p align="center"><strong><a href="https://demo.kryspal.net">在线演示</a></strong>：在浏览器里浏览示例片库和管理后台。仅含示例数据。</p>
+<p align="center"><strong><a href="https://demo.kryspal.net/?lang=zh-CN">在线演示</a></strong>：在浏览器里浏览示例片库和管理后台。仅含示例数据。</p>
 
 <p align="center">状态：<strong>测试版</strong>。</p>
 
