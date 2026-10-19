@@ -23,7 +23,7 @@
 
 <p align="center"><strong><a href="https://demo.kryspal.net">在线演示</a></strong>：在浏览器里浏览示例片库和管理后台。仅含示例数据。</p>
 
-<p align="center">状态：<strong>测试版</strong>。升级前请先备份数据库。</p>
+<p align="center">状态：<strong>测试版</strong>。</p>
 
 <p align="center"><img alt="Kryspal Media 网页播放器首页" src="assets/viewer-home.webp" width="860"></p>
 
@@ -116,7 +116,7 @@ docker compose pull
 docker compose up -d
 ```
 
-升级前先备份：管理后台 → 备份，或执行 `docker compose exec postgres pg_dump -U kryspal -d kryspal --format=custom > backup.dump`。
+测试版升级可能对数据库做出无法回退的变更，请先用 `docker compose exec postgres pg_dump -U kryspal -d kryspal --format=custom > backup.dump` 导出一份。
 
 ### 使用自己的 PostgreSQL
 
