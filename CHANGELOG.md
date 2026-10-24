@@ -2,6 +2,18 @@
 
 What changed for you in each release, newest first. The full notes, install and upgrade steps are on each release page.
 
+## [0.9.10-beta](https://github.com/kryspal/kryspal-media/releases/tag/v0.9.10-beta) · 2026-10-24
+
+- Built-in webhooks, free on every plan: Emby-compatible messages for playback, watched, favorite and new-title events, with per-webhook events, members and libraries, optional signing, a test button and the last 50 deliveries.
+- Automatic matching is decided by the metadata plugin instead of a fixed score; subtitles are downloaded automatically only when the subtitle plugin is sure they fit (needs TMDB 2.6.0, OpenSubtitles 1.3.0 and ASSRT 1.1.0).
+- A video with incomplete media info, such as an older Blu-ray ISO, is read when you press play instead of failing.
+- A title with several versions plays the main file by default in the web player, Emby apps and when casting; Emby apps get default audio and subtitle tracks from the member's preferences.
+- Link a TV from the web player by typing the code the TV shows.
+- Casting marks the title watched at the end and keeps the resume position.
+- Server support for app offline downloads, except disc sources.
+- System settings has eight tabs, and the attention cards have one fixed height.
+- arm64 images are published again, next to amd64.
+
 ## [0.9.9-beta](https://github.com/kryspal/kryspal-media/releases/tag/v0.9.9-beta) · 2026-10-23
 
 - Network storage over WebDAV, free: add a NAS, rclone or OpenList address, pick folders, and the server scans and plays them without mounting anything. Sending the player straight to the storage is a PRO feature.

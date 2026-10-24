@@ -24,11 +24,11 @@
 <p align="center"><strong><a href="https://demo.kryspal.net/?lang=en">Live demo</a></strong>: browse a sample library and the admin console in your browser. Sample data only.</p>
 
 <!-- latest:start -->
-> **Latest release: [0.9.9-beta](https://github.com/kryspal/kryspal-media/releases/tag/v0.9.9-beta)** · 2026-10-23
+> **Latest release: [0.9.10-beta](https://github.com/kryspal/kryspal-media/releases/tag/v0.9.10-beta)** · 2026-10-24
 >
-> - Network storage over WebDAV, free: add a NAS, rclone or OpenList address and play without mounting it.
-> - Plugin settings per library, with a Scrape again button when a change could affect results.
-> - Smoother danmaku, off by default, with a clear loading state.
+> - Webhooks, free on every plan: Emby-compatible messages to Home Assistant, Trakt and Simkl bridges and chat bridges.
+> - More accurate automatic matching, and subtitles downloaded automatically only when the plugin is sure they fit.
+> - Link a TV from the web player by typing the code the TV shows; arm64 images are published again.
 >
 > [All releases](CHANGELOG.md)
 <!-- latest:end -->

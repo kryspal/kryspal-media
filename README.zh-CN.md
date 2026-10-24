@@ -26,11 +26,11 @@
 <p align="center">状态：<strong>测试版</strong>。</p>
 
 <!-- latest:start -->
-> **最新版本：[0.9.9-beta](https://github.com/kryspal/kryspal-media/releases/tag/v0.9.9-beta)** · 2026-10-23
+> **最新版本：[0.9.10-beta](https://github.com/kryspal/kryspal-media/releases/tag/v0.9.10-beta)** · 2026-10-24
 >
-> - 网络存储（WebDAV）免费：添加 NAS、rclone 或 OpenList 地址，不用挂载就能扫描和播放。
-> - 插件设置可以按片库单独设置，改动可能影响结果时有「重新刮削」按钮。
-> - 弹幕更流畅，默认关闭，并显示清楚的加载状态。
+> - 内置 Webhook，所有方案免费：把播放、已看、收藏、新片入库等事件以兼容 Emby 的格式发给 Home Assistant、Trakt、Simkl 和聊天机器人。
+> - 自动匹配更准确，字幕只在插件确认合适时才自动下载。
+> - 在网页播放器里输入电视上显示的代码即可关联电视；arm64 镜像重新发布。
 >
 > [全部版本](CHANGELOG.md)
 <!-- latest:end -->
