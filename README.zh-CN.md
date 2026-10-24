@@ -142,7 +142,7 @@ docker compose up -d
 
 | 镜像 | 标签 |
 | --- | --- |
-| `kryspal/kryspalmedia` | `0.9.5-beta`、`beta`、`latest` |
+| `kryspal/kryspalmedia` | `beta` 指向最新的测试版（具体版本见页面顶部的最新版本）；也可以用具体的版本标签 |
 | `kryspal/kryspalmedia-postgres` | `16`（带 pg_bigm 的 PostgreSQL 16） |
 
 ## 方案
