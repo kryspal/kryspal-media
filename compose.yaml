@@ -1,0 +1,31 @@
+services:
+  server:
+    image: kryspal/kryspalmedia:0.9.9-beta
+    restart: unless-stopped
+    stop_grace_period: 60s
+    ports:
+      - "5797:5797" # LAN
+      - "5798:5798" # WAN
+      # - "7359:7359/udp" # discovery
+    environment:
+      EXTERNAL_HTTP_ADDR: ":5798" # WAN
+    volumes:
+      - /path/to/media:/media
+      # 2+ folders: use these instead
+      # - /mnt/movies:/media/mnt/movies
+      # - /mnt/tv:/media/mnt/tv
+      - data:/var/lib/mediaserver
+      - db:/var/lib/kryspal-db:ro
+    depends_on:
+      - postgres
+  postgres:
+    image: kryspal/kryspalmedia-postgres:16
+    restart: unless-stopped
+    stop_grace_period: 60s
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+      - db:/var/lib/kryspal-db
+volumes:
+  data:
+  pgdata:
+  db:

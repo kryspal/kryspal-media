@@ -23,6 +23,16 @@
 
 <p align="center"><strong><a href="https://demo.kryspal.net/?lang=en">Live demo</a></strong>: browse a sample library and the admin console in your browser. Sample data only.</p>
 
+<!-- latest:start -->
+> **Latest release: [0.9.9-beta](https://github.com/kryspal/kryspal-media/releases/tag/v0.9.9-beta)** · 2026-10-23
+>
+> - Network storage over WebDAV, free: add a NAS, rclone or OpenList address and play without mounting it.
+> - Plugin settings per library, with a Scrape again button when a change could affect results.
+> - Smoother danmaku, off by default, with a clear loading state.
+>
+> [All releases](CHANGELOG.md)
+<!-- latest:end -->
+
 <p align="center"><img alt="Kryspal Media web player home page" src="assets/viewer-home.webp" width="860"></p>
 
 ## Why we built it
@@ -67,7 +77,7 @@ curl -fsSL https://media.kryspal.net/install.sh | bash -s -- --media /srv/media
 
 Replace `/srv/media` with your media folder. Repeat `--media` for more folders.
 
-On a NAS, use the Docker Compose file from the [installation guide](https://media.kryspal.net/docs/install/) instead.
+On a NAS, use the [`compose.yaml`](compose.yaml) in this repository (it pins the latest release; set your media folder in it) or follow the [installation guide](https://media.kryspal.net/docs/install/).
 
 Two containers (server and PostgreSQL), one Docker Compose file. Requires Docker with Compose v2 on 64-bit Linux (amd64 or arm64); 4 GB RAM recommended.
 

@@ -25,6 +25,16 @@
 
 <p align="center">状态：<strong>测试版</strong>。</p>
 
+<!-- latest:start -->
+> **最新版本：[0.9.9-beta](https://github.com/kryspal/kryspal-media/releases/tag/v0.9.9-beta)** · 2026-10-23
+>
+> - 网络存储（WebDAV）免费：添加 NAS、rclone 或 OpenList 地址，不用挂载就能扫描和播放。
+> - 插件设置可以按片库单独设置，改动可能影响结果时有「重新刮削」按钮。
+> - 弹幕更流畅，默认关闭，并显示清楚的加载状态。
+>
+> [全部版本](CHANGELOG.md)
+<!-- latest:end -->
+
 <p align="center"><img alt="Kryspal Media 网页播放器首页" src="assets/viewer-home.webp" width="860"></p>
 
 ## 为什么做这个产品
@@ -76,7 +86,7 @@ NAS 或想手动安装，请按下面的步骤用 Docker Compose。更多说明�
 
 ### 1. 取得文件
 
-从[版本发布](https://github.com/kryspal/kryspal-media/releases)页面下载 `compose.yaml`，放进一个空文件夹。没有 `.env` 文件，所有设置都在 `compose.yaml` 里。
+下载本仓库根目录的 [`compose.yaml`](compose.yaml)（固定在最新版本，先在里面设置你的片库文件夹），放进一个空文件夹。没有 `.env` 文件，所有设置都在 `compose.yaml` 里。
 
 ### 2. 设置
 
