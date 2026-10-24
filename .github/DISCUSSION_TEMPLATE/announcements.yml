@@ -1,0 +1,44 @@
+body:
+  - type: markdown
+    attributes:
+      value: A short announcement for a new release. Keep to the highlights; the full notes live on the release page.
+  - type: input
+    id: version
+    attributes:
+      label: Version
+      description: For example 0.9.10-beta
+      placeholder: 0.9.10-beta
+    validations:
+      required: true
+  - type: textarea
+    id: highlights
+    attributes:
+      label: Highlights
+      description: At most three one-line points, each starting with what you can now do.
+      value: |
+        - 
+        - 
+        - 
+    validations:
+      required: true
+  - type: textarea
+    id: upgrade
+    attributes:
+      label: How to upgrade
+      value: |
+        Back up first (Admin → Backup, or `pg_dump`), then:
+
+        ```
+        docker compose pull && docker compose up -d
+        ```
+
+        Database migrations run automatically at startup. Beta releases may include changes that cannot be rolled back after the database migrates.
+    validations:
+      required: true
+  - type: input
+    id: release
+    attributes:
+      label: Release link
+      placeholder: https://github.com/kryspal/kryspal-media/releases/tag/v0.9.10-beta
+    validations:
+      required: true
