@@ -2,6 +2,28 @@
 
 What changed for you in each release, newest first. The full notes, install and upgrade steps are on each release page.
 
+## [0.9.11-beta](https://github.com/kryspal/kryspal-media/releases/tag/v0.9.11-beta) · 2026-10-27
+
+- Files that share a main name become one title with several versions, and a metadata plugin can name each version
+- Find duplicates by catalog number as well as by title
+- Plugins can show their own icon, and plugin settings are grouped with icons
+- Rating badges show the source's logo and score, and you choose the source and a minimum score
+- A community rating badge rule is built in, and the 1080P badge is retired
+- Badge size and an outline are yours to pick, with a live preview
+- Poster badge settings are shorter: a compact rule list, a side panel, and changes save by themselves
+- A Trakt ratings plugin adds a second set of ratings to your titles
+- The title page groups its facts by meaning, with up to three ratings and the genres on their own row
+- On narrow screens the filters fold behind one icon
+- Search puts closer matches first, including pinyin initials
+- Shift+N and Shift+P jump to the next and previous episode, and Esc closes the next-episode card
+- Search results keep going: titles load as you scroll, and Show more reveals more actors
+- Danmaku sliders move in 5% steps and save a second after you stop
+- The cast list in title management shows each person's photo
+- About now lives at the bottom of the System status page
+- Webhook messages carry the server's product name and version
+- Signing out and similar requests no longer break the connection on macOS
+- DB_HOST and DB_PORT for setups where containers cannot reach each other by name
+
 ## [0.9.10-beta](https://github.com/kryspal/kryspal-media/releases/tag/v0.9.10-beta) · 2026-10-24
 
 - Built-in webhooks, free on every plan: Emby-compatible messages for playback, watched, favorite and new-title events, with per-webhook events, members and libraries, optional signing, a test button and the last 50 deliveries.

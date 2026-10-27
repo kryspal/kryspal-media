@@ -24,11 +24,11 @@
 <p align="center"><strong><a href="https://demo.kryspal.net/?lang=en">Live demo</a></strong>: browse a sample library and the admin console in your browser. Sample data only.</p>
 
 <!-- latest:start -->
-> **Latest release: [0.9.10-beta](https://github.com/kryspal/kryspal-media/releases/tag/v0.9.10-beta)** · 2026-10-24
+> **Latest release: [0.9.11-beta](https://github.com/kryspal/kryspal-media/releases/tag/v0.9.11-beta)** · 2026-10-27
 >
-> - Webhooks, free on every plan: Emby-compatible messages to Home Assistant, Trakt and Simkl bridges and chat bridges.
-> - More accurate automatic matching, and subtitles downloaded automatically only when the plugin is sure they fit.
-> - Link a TV from the web player by typing the code the TV shows; arm64 images are published again.
+> - Merge files that share a main name into one title with several versions, and let a metadata plugin name each version
+> - Search now finds people and titles by pinyin initials, and keeps loading as you scroll
+> - Choose the source and minimum score for rating badges on posters, with a live preview
 >
 > [All releases](CHANGELOG.md)
 <!-- latest:end -->

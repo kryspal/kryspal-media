@@ -26,11 +26,11 @@
 <p align="center">状态：<strong>测试版</strong>。</p>
 
 <!-- latest:start -->
-> **最新版本：[0.9.10-beta](https://github.com/kryspal/kryspal-media/releases/tag/v0.9.10-beta)** · 2026-10-24
+> **最新版本：[0.9.11-beta](https://github.com/kryspal/kryspal-media/releases/tag/v0.9.11-beta)** · 2026-10-27
 >
-> - 内置 Webhook，所有方案免费：把播放、已看、收藏、新片入库等事件以兼容 Emby 的格式发给 Home Assistant、Trakt、Simkl 和聊天机器人。
-> - 自动匹配更准确，字幕只在插件确认合适时才自动下载。
-> - 在网页播放器里输入电视上显示的代码即可关联电视；arm64 镜像重新发布。
+> - 同名文件合并成一个条目的多个版本，元数据插件还能给每个版本命名
+> - 搜索支持拼音首字母找演员和作品，往下滚动时继续加载
+> - 海报上的评分角标可以选来源和最低分，并能实时预览
 >
 > [全部版本](CHANGELOG.md)
 <!-- latest:end -->
