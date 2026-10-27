@@ -27,7 +27,7 @@
 > **Latest release: [0.9.11-beta](https://github.com/kryspal/kryspal-media/releases/tag/v0.9.11-beta)** · 2026-10-27
 >
 > - Merge files that share a main name into one title with several versions, and let a metadata plugin name each version
-> - Search now finds people and titles by pinyin initials, and keeps loading as you scroll
+> - Search puts closer matches first and keeps loading as you scroll
 > - Choose the source and minimum score for rating badges on posters, with a live preview
 >
 > [All releases](CHANGELOG.md)
