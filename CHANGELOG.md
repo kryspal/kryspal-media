@@ -11,7 +11,6 @@ What changed for you in each release, newest first. The full notes, install and 
 - A community rating badge rule is built in, and the 1080P badge is retired
 - Badge size and an outline are yours to pick, with a live preview
 - Poster badge settings are shorter: a compact rule list, a side panel, and changes save by themselves
-- A Trakt ratings plugin adds a second set of ratings to your titles
 - The title page groups its facts by meaning, with up to three ratings and the genres on their own row
 - On narrow screens the filters fold behind one icon
 - Search puts closer matches first, including pinyin initials
