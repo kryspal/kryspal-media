@@ -24,11 +24,11 @@
 <p align="center"><strong><a href="https://demo.kryspal.net/?lang=en">Live demo</a></strong>: browse a sample library and the admin console in your browser. Sample data only.</p>
 
 <!-- latest:start -->
-> **Latest release: [0.9.11-beta](https://github.com/kryspal/kryspal-media/releases/tag/v0.9.11-beta)** · 2026-10-27
+> **Latest release: [0.9.12-beta](https://github.com/kryspal/kryspal-media/releases/tag/v0.9.12-beta)** · 2026-10-28
 >
-> - Merge files that share a main name into one title with several versions, and let a metadata plugin name each version
-> - Search puts closer matches first and keeps loading as you scroll
-> - Choose the source and minimum score for rating badges on posters, with a live preview
+> - Hide spoilers on the web: unwatched episodes show a blurred still and a collapsed summary, and each member chooses
+> - Web browsers no longer count toward the device limit
+> - Continue watching keeps finished titles you are watching again, at their resume position
 >
 > [All releases](CHANGELOG.md)
 <!-- latest:end -->

@@ -2,6 +2,27 @@
 
 What changed for you in each release, newest first. The full notes, install and upgrade steps are on each release page.
 
+## [0.9.12-beta](https://github.com/kryspal/kryspal-media/releases/tag/v0.9.12-beta) · 2026-10-28
+
+- Trakt is now built in: it syncs watch history and adds Trakt community ratings to movies and series. There is nothing to install from the plugin center; each member's own Trakt connection works as before
+- Continue watching also lists titles you finished and then started again, like Emby; a card with progress shows only the progress bar and the time left
+- Previous and Next episode buttons, with Shift+P and Shift+N: at the end of a season playback goes on to the next season that has episodes, and skips specials
+- Hide spoilers, off by default: episodes you have not watched get a blurred still and a folded synopsis
+- An episode page shows the episode's own still beside the title
+- Theme and light or dark apply only to the device you set them on
+- A plugin can name each version of a title, and the name you write yourself ("title - version") still comes first
+- When a plugin cannot be installed the plugin page says why
+- A plugin loaded from the developer directory shows where it comes from instead of install and uninstall buttons
+- Trakt and Bangumi plugins show their own icons
+- Changing the address of a network storage account asks for the password again, so a saved password is never sent to a new address
+- Reading media info for a whole library is part of STRM boost (PRO); reading a single title stays free, and the page shows an upgrade prompt when it is not included
+- Bundled plugins updated: TMDB 2.6.0, OpenSubtitles 1.3.0 and Enhanced Metadata Recognition 1.3.0
+- Web browsers no longer count toward the device limit
+- A device that has not been used for 90 days releases its slot without being signed out, and takes a place in the queue again the next time it is used
+- Servers whose clock runs slow no longer contact the license service every minute
+- Changing your password in an app or the web player signs out every other device and keeps only the current one signed in; changing your PIN does the same
+- Security hardening
+
 ## [0.9.11-beta](https://github.com/kryspal/kryspal-media/releases/tag/v0.9.11-beta) · 2026-10-27
 
 - Files that share a main name become one title with several versions, and a metadata plugin can name each version

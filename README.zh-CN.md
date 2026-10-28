@@ -26,11 +26,11 @@
 <p align="center">状态：<strong>测试版</strong>。</p>
 
 <!-- latest:start -->
-> **最新版本：[0.9.11-beta](https://github.com/kryspal/kryspal-media/releases/tag/v0.9.11-beta)** · 2026-10-27
+> **最新版本：[0.9.12-beta](https://github.com/kryspal/kryspal-media/releases/tag/v0.9.12-beta)** · 2026-10-28
 >
-> - 同名文件合并成一个条目的多个版本，元数据插件还能给每个版本命名
-> - 搜索时更相关的结果排在前面，向下滚动自动加载更多
-> - 海报上的评分角标可以选来源和最低分，并能实时预览
+> - 网页可以隐藏未看剧集的剧透：剧照模糊、简介收起，每位成员自己选择开关
+> - 网页浏览器不再计入设备数
+> - 「继续观看」会保留重看到一半的已看条目，停在上次的位置
 >
 > [全部版本](CHANGELOG.md)
 <!-- latest:end -->
