@@ -24,11 +24,11 @@
 <p align="center"><strong><a href="https://demo.kryspal.net/?lang=en">Live demo</a></strong>: browse a sample library and the admin console in your browser. Sample data only.</p>
 
 <!-- latest:start -->
-> **Latest release: [0.9.12-beta](https://github.com/kryspal/kryspal-media/releases/tag/v0.9.12-beta)** · 2026-10-28
+> **Latest release: [0.9.13](https://github.com/kryspal/kryspal-media/releases/tag/v0.9.13)** · 2026-10-29
 >
-> - Hide spoilers on the web: unwatched episodes show a blurred still and a collapsed summary, and each member chooses
-> - Web browsers no longer count toward the device limit
-> - Continue watching keeps finished titles you are watching again, at their resume position
+> - Search takes several words in any order and a phrase in quotes, and keeps your last 20 searches
+> - "Still watching?": after several episodes in a row with no action from you, the player pauses and asks
+> - Frame stepping: press . or , to go one frame forward or back
 >
 > [All releases](CHANGELOG.md)
 <!-- latest:end -->

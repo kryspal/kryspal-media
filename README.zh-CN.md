@@ -26,11 +26,11 @@
 <p align="center">状态：<strong>测试版</strong>。</p>
 
 <!-- latest:start -->
-> **最新版本：[0.9.12-beta](https://github.com/kryspal/kryspal-media/releases/tag/v0.9.12-beta)** · 2026-10-28
+> **最新版本：[0.9.13](https://github.com/kryspal/kryspal-media/releases/tag/v0.9.13)** · 2026-10-29
 >
-> - 网页可以隐藏未看剧集的剧透：剧照模糊、简介收起，每位成员自己选择开关
-> - 网页浏览器不再计入设备数
-> - 「继续观看」会保留重看到一半的已看条目，停在上次的位置
+> - 搜索支持多个词（不分顺序）和引号整句，并保留最近 20 条搜索
+> - 「还在看吗」：连续看了几集、期间没有操作，播放器会暂停询问
+> - 逐帧：按 . 或 , 前进、后退一帧
 >
 > [全部版本](CHANGELOG.md)
 <!-- latest:end -->

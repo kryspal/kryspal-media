@@ -2,6 +2,21 @@
 
 What changed for you in each release, newest first. The full notes, install and upgrade steps are on each release page.
 
+## [0.9.13](https://github.com/kryspal/kryspal-media/releases/tag/v0.9.13) · 2026-10-29
+
+- Search takes several words in any order, and a phrase in quotes; your last 20 searches are kept so you can run one again or delete it
+- "Still watching?": after several episodes in a row with no action from you, the player pauses and asks; choose off, 2, 3 or 5 episodes
+- Frame stepping: press . or , to go one frame forward or back
+- Remove a series from Next up; watching a new episode of it brings it back
+- Subtitles start a little larger, the same as in the apps
+- Image subtitles (PGS) now move out of the way only for the part the control bar covers
+- The Kryspal apps switch to your local network by themselves at home: the first time an administrator opens the admin console at home, the LAN discovery address is filled in for you
+- Updating a member's profile without sending the permission settings no longer clears the existing ones, such as the administrator role
+- Clearing the "app check failed" notice no longer crashes the server
+- A disc image (ISO) on cloud storage no longer loses its disc info after a rescan; the ones already affected are read again before playback
+- Continuous scraping now handles titles marked as needing a new scrape, and the "gave up" notice goes away by itself once they recover
+- Paging through search results is faster
+
 ## [0.9.12-beta](https://github.com/kryspal/kryspal-media/releases/tag/v0.9.12-beta) · 2026-10-28
 
 - Trakt is now built in: it syncs watch history and adds Trakt community ratings to movies and series. There is nothing to install from the plugin center; each member's own Trakt connection works as before
