@@ -24,11 +24,11 @@
 <p align="center"><strong><a href="https://demo.kryspal.net/?lang=en">Live demo</a></strong>: browse a sample library and the admin console in your browser. Sample data only.</p>
 
 <!-- latest:start -->
-> **Latest release: [0.9.13](https://github.com/kryspal/kryspal-media/releases/tag/v0.9.13)** · 2026-10-29
+> **Latest release: [0.9.14](https://github.com/kryspal/kryspal-media/releases/tag/v0.9.14)** · 2026-10-31
 >
-> - Search takes several words in any order and a phrase in quotes, and keeps your last 20 searches
-> - "Still watching?": after several episodes in a row with no action from you, the player pauses and asks
-> - Frame stepping: press . or , to go one frame forward or back
+> - Continue watching shows only the latest episode you watched of each series
+> - The web player shows the volume on screen when you change it with the arrow keys
+> - PostgreSQL 18 works too, including the official image
 >
 > [All releases](CHANGELOG.md)
 <!-- latest:end -->

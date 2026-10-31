@@ -26,11 +26,11 @@
 <p align="center">状态：<strong>测试版</strong>。</p>
 
 <!-- latest:start -->
-> **最新版本：[0.9.13](https://github.com/kryspal/kryspal-media/releases/tag/v0.9.13)** · 2026-10-29
+> **最新版本：[0.9.14](https://github.com/kryspal/kryspal-media/releases/tag/v0.9.14)** · 2026-10-31
 >
-> - 搜索支持多个词（不分顺序）和引号整句，并保留最近 20 条搜索
-> - 「还在看吗」：连续看了几集、期间没有操作，播放器会暂停询问
-> - 逐帧：按 . 或 , 前进、后退一帧
+> - 继续观看里，同一部剧只显示最近看的那一集
+> - 网页播放器：用方向键调音量时会在画面上显示音量
+> - 也支持 PostgreSQL 18，官方镜像可以直接用
 >
 > [全部版本](CHANGELOG.md)
 <!-- latest:end -->

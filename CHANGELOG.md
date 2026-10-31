@@ -2,6 +2,12 @@
 
 What changed for you in each release, newest first. The full notes, install and upgrade steps are on each release page.
 
+## [0.9.14](https://github.com/kryspal/kryspal-media/releases/tag/v0.9.14) · 2026-10-31
+
+- Continue watching shows only the latest episode you watched of each series (in our web player and apps; other players are unchanged)
+- Web player: the volume shows on screen when you change it with the arrow keys, and Media info shows the hls.js version
+- PostgreSQL 18 is supported, including the official image
+
 ## [0.9.13](https://github.com/kryspal/kryspal-media/releases/tag/v0.9.13) · 2026-10-29
 
 - Search takes several words in any order, and a phrase in quotes; your last 20 searches are kept so you can run one again or delete it
