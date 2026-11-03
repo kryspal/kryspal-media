@@ -1,12 +1,12 @@
 services:
   server:
-    image: kryspal/kryspalmedia:0.9.14
+    image: kryspal/kryspalmedia:0.9.15
     restart: unless-stopped
     stop_grace_period: 60s
     ports:
       - "5797:5797" # LAN
       - "5798:5798" # WAN
-      # - "7359:7359/udp" # discovery
+      # LAN discovery needs host network
     environment:
       EXTERNAL_HTTP_ADDR: ":5798" # WAN
     volumes:

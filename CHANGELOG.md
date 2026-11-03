@@ -2,6 +2,20 @@
 
 What changed for you in each release, newest first. The full notes, install and upgrade steps are on each release page.
 
+## [0.9.15](https://github.com/kryspal/kryspal-media/releases/tag/v0.9.15) · 2026-11-03
+
+- Playlists: create, reorder, play and shuffle your own lists of movies, episodes and whole series in the web player; each member's lists are private; up to 500 lists with 5000 entries each; included in every plan
+- Emby and Jellyfin compatibility modes serve playlists to third-party players; Infuse can browse, build, sort and delete them
+- Emby and Jellyfin imports can bring playlists along
+- The Favorites page drops the in-progress tab; Continue watching on the home page already covers it
+- Library sort by bitrate in Emby mode
+- Images follow their EXIF orientation; uploaded images and avatars are stored upright
+- A new library is watched right away, even while its folder is empty, and a remounted library root is watched again
+- Removing an uploaded image rescans the item, so a local poster.jpg returns within seconds
+- Members see the file path and strm target of a version, like admins
+- Starting playback on a remote source reads much less data to prepare subtitles, and third-party players no longer trigger that read
+- Install: --bind publishes the ports on one address; upgrades drop the old 7359/udp line and recreate a server that lost its network
+
 ## [0.9.14](https://github.com/kryspal/kryspal-media/releases/tag/v0.9.14) · 2026-10-31
 
 - Continue watching shows only the latest episode you watched of each series (in our web player and apps; other players are unchanged)

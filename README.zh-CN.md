@@ -26,11 +26,11 @@
 <p align="center">状态：<strong>测试版</strong>。</p>
 
 <!-- latest:start -->
-> **最新版本：[0.9.14](https://github.com/kryspal/kryspal-media/releases/tag/v0.9.14)** · 2026-10-31
+> **最新版本：[0.9.15](https://github.com/kryspal/kryspal-media/releases/tag/v0.9.15)** · 2026-11-03
 >
-> - 继续观看里，同一部剧只显示最近看的那一集
-> - 网页播放器：用方向键调音量时会在画面上显示音量
-> - 也支持 PostgreSQL 18，官方镜像可以直接用
+> - 网页播放器支持播放列表：在“收藏”里编排自己的列表，免费，也能从 Emby 和 Jellyfin 导入
+> - 播放器能分辨存储离线和文件已删除，存储恢复后自动重试
+> - 安装：新增 --bind 选项，适合 VPS；升级时会修复重启后失去网络的服务器
 >
 > [全部版本](CHANGELOG.md)
 <!-- latest:end -->
