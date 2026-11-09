@@ -2,6 +2,27 @@
 
 What changed for you in each release, newest first. The full notes, install and upgrade steps are on each release page.
 
+## [0.9.16](https://github.com/kryspal/kryspal-media/releases/tag/v0.9.16) · 2026-11-06
+
+- Discover: a new page in the web player, shown only when a plugin provides it and an administrator allows it for the member. Plugins define the pages: tabs, rows of posters, landscape images or entry cards, a large banner, filters and sort, title details with cast, studios and trailers, and search grouped by source
+- Discover knows your library: a title you already have opens its detail page, with a choice when several libraries hold it; a Not in library switch hides what you have
+- Requests go through the plugin as the member, with a status on each title, a choice of seasons for series, and a My requests list that shows the download stage and the expected time when the plugin knows them
+- Recommendations: a plugin may suggest titles based on your library and watch history; off until an administrator allows it for that plugin, and each member can stop sharing their watch history in settings
+- Plugin logos in Discover follow the light or dark theme
+- Seerr connector 1.0.0 in the official plugin catalog, not installed with the server
+- Rule collections (PRO): build a collection from rules (genre, year, resolution, rating, tags and more), with its own poster and background; collections show in search in their own group and on library pages
+- External tags survive rescrapes, so rule collections and external tools can rely on them
+- Versions: rename a version and pin the primary one from an item's files tab
+- External tools: API keys can be limited to read-only library lookups or library sync; lookups by provider ID or product code, scans by path, and webhooks for version.added and version.removed
+- Emby and Jellyfin compatibility: member avatars for tools such as Seerr; member IDs in Emby mode are 32 hexadecimal characters, as in Jellyfin mode, and existing logins keep working
+- An "open in Emby" link from another tool opens the title in the web player
+- Playback: asking how to play the next episode no longer interrupts the episode that is playing
+- The web player top bar folds links it cannot fit into a More menu
+- Esc goes back on every page of the web player
+- Large libraries: renaming many files at once no longer trips the mass-missing guard, and marking many items missing stays fast
+- A value from a file that is too long no longer makes a whole folder fail to save
+- Media info shows "< 1 MB" for files under one megabyte
+
 ## [0.9.15](https://github.com/kryspal/kryspal-media/releases/tag/v0.9.15) · 2026-11-03
 
 - Playlists: create, reorder, play and shuffle your own lists of movies, episodes and whole series in the web player; each member's lists are private; up to 500 lists with 5000 entries each; included in every plan

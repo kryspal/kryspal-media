@@ -26,11 +26,11 @@
 <p align="center">状态：<strong>测试版</strong>。</p>
 
 <!-- latest:start -->
-> **最新版本：[0.9.15](https://github.com/kryspal/kryspal-media/releases/tag/v0.9.15)** · 2026-11-03
+> **最新版本：[0.9.16](https://github.com/kryspal/kryspal-media/releases/tag/v0.9.16)** · 2026-11-06
 >
-> - 网页播放器支持播放列表：在“收藏”里编排自己的列表，免费，也能从 Emby 和 Jellyfin 导入
-> - 播放器能分辨存储离线和文件已删除，存储恢复后自动重试
-> - 安装：新增 --bind 选项，适合 VPS；升级时会修复重启后失去网络的服务器
+> - 发现：通过插件浏览、搜索和请求媒体库里还没有的作品；Seerr 连接器已上架官方插件目录
+> - 规则合集（PRO）：按类型、年份、分辨率、评分等规则自动填充的合集
+> - 外部工具：限定用途的 API 密钥、媒体库同步，以及版本变化的 Webhook，方便接入 Radarr、Sonarr、Seerr 等工具
 >
 > [全部版本](CHANGELOG.md)
 <!-- latest:end -->

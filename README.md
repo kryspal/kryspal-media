@@ -24,11 +24,11 @@
 <p align="center"><strong><a href="https://demo.kryspal.net/?lang=en">Live demo</a></strong>: browse a sample library and the admin console in your browser. Sample data only.</p>
 
 <!-- latest:start -->
-> **Latest release: [0.9.15](https://github.com/kryspal/kryspal-media/releases/tag/v0.9.15)** · 2026-11-03
+> **Latest release: [0.9.16](https://github.com/kryspal/kryspal-media/releases/tag/v0.9.16)** · 2026-11-06
 >
-> - Playlists in the web player: build your own lists from Favorites, free, and import them from Emby and Jellyfin
-> - The player tells offline storage from a deleted file, and retries when the storage comes back
-> - Install: new --bind option for VPS installs, and an upgrade repairs a server that lost its network after a restart
+> - Discover: browse, search and request titles that are not in your library yet, through a plugin; the Seerr connector is in the official plugin catalog
+> - Rule collections (PRO): collections that fill themselves from rules such as genre, year, resolution or rating
+> - External tools: API keys limited to one purpose, library sync, and version webhooks for tools such as Radarr, Sonarr and Seerr
 >
 > [All releases](CHANGELOG.md)
 <!-- latest:end -->
