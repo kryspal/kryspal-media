@@ -2,6 +2,19 @@
 
 What changed for you in each release, newest first. The full notes, install and upgrade steps are on each release page.
 
+## [0.9.17](https://github.com/kryspal/kryspal-media/releases/tag/v0.9.17) · 2026-11-16
+
+- A calmer layout: the sections now sit in a row of tabs below the featured image, and a round search button at the left end of the row searches the source you are in
+- Posters can carry badges and a status or progress ring. On a computer, rest the pointer on a poster to see a larger card with a wide image, synopsis, ratings and the main action; on a phone, press and hold
+- Request several titles at once: select up to 50, rank your preferences once (for example by version) and check each row on a confirmation sheet before sending
+- My requests is now three lists (in progress, in library, declined) with a thin progress bar on each row, and every source has its own entry
+- My subscriptions: what you follow through a plugin, with actions such as unsubscribe and a form to create a new subscription, including searching for people or studios as you type
+- Calendar: posters ordered by date, one week at a time, for releases and new episodes of what you follow or requested. Subscriptions and the calendar appear only for plugins that offer them
+- Plugin SDK v0.11.0: page actions, member subscriptions with a new-subscription form, a calendar, batch work actions, preference tags on choices, posters cut from wide images, more concurrent image downloads and a library-files summary for plugins the administrator allows. Needs server 0.9.17
+- Fixed: Kryspal apps no longer fall back to a stream from the server when the chosen audio track is not the first one in the file
+- Catalog and admin lists can be filtered by lossless audio, and playlists report their total running time (used by the apps)
+- Images: more widths up to 3840 and never enlarged; the web player's background picks a 2560 or 3840 wide image on 1440p and 4K screens
+
 ## [0.9.16](https://github.com/kryspal/kryspal-media/releases/tag/v0.9.16) · 2026-11-06
 
 - Discover: a new page in the web player, shown only when a plugin provides it and an administrator allows it for the member. Plugins define the pages: tabs, rows of posters, landscape images or entry cards, a large banner, filters and sort, title details with cast, studios and trailers, and search grouped by source

@@ -1,6 +1,6 @@
 services:
   server:
-    image: kryspal/kryspalmedia:0.9.16
+    image: kryspal/kryspalmedia:0.9.17
     restart: unless-stopped
     stop_grace_period: 60s
     ports:

@@ -26,11 +26,11 @@
 <p align="center">状态：<strong>测试版</strong>。</p>
 
 <!-- latest:start -->
-> **最新版本：[0.9.16](https://github.com/kryspal/kryspal-media/releases/tag/v0.9.16)** · 2026-11-06
+> **最新版本：[0.9.17](https://github.com/kryspal/kryspal-media/releases/tag/v0.9.17)** · 2026-11-16
 >
-> - 发现：通过插件浏览、搜索和请求媒体库里还没有的作品；Seerr 连接器已上架官方插件目录
-> - 规则合集（PRO）：按类型、年份、分辨率、评分等规则自动填充的合集
-> - 外部工具：限定用途的 API 密钥、媒体库同步，以及版本变化的 Webhook，方便接入 Radarr、Sonarr、Seerr 等工具
+> - 发现页改版：分栏移到大图下方，多选批量求片并有偏好确认，“我的请求”分为三类列表，新增“我的订阅”、新建订阅表单和一周日历
+> - 大屏幕上的海报和背景图更清晰：按 1440p、4K 屏幕取图，最宽 3840 像素，不放大
+> - 发现插件的新能力：页面动作、订阅、日历、从横图裁出海报（插件 SDK v0.11.0）；Seerr 连接器 1.1.0 新增日历
 >
 > [全部版本](CHANGELOG.md)
 <!-- latest:end -->

@@ -24,11 +24,11 @@
 <p align="center"><strong><a href="https://demo.kryspal.net/?lang=en">Live demo</a></strong>: browse a sample library and the admin console in your browser. Sample data only.</p>
 
 <!-- latest:start -->
-> **Latest release: [0.9.16](https://github.com/kryspal/kryspal-media/releases/tag/v0.9.16)** · 2026-11-06
+> **Latest release: [0.9.17](https://github.com/kryspal/kryspal-media/releases/tag/v0.9.17)** · 2026-11-16
 >
-> - Discover: browse, search and request titles that are not in your library yet, through a plugin; the Seerr connector is in the official plugin catalog
-> - Rule collections (PRO): collections that fill themselves from rules such as genre, year, resolution or rating
-> - External tools: API keys limited to one purpose, library sync, and version webhooks for tools such as Radarr, Sonarr and Seerr
+> - Discover, redesigned: tabs below the large banner, several titles requested at once with a preferences check, My requests in three lists, and My subscriptions with a new-subscription form and a week calendar
+> - Sharper artwork on large screens: posters and backdrops are served at up to 3840 px wide, picked for 1440p and 4K displays, never upscaled
+> - New abilities for Discover plugins: page actions, subscriptions, a calendar and poster crops from landscape images (plugin SDK v0.11.0); the Seerr connector 1.1.0 adds the calendar
 >
 > [All releases](CHANGELOG.md)
 <!-- latest:end -->
