@@ -26,11 +26,11 @@
 <p align="center">状态：<strong>测试版</strong>。</p>
 
 <!-- latest:start -->
-> **最新版本：[0.9.17](https://github.com/kryspal/kryspal-media/releases/tag/v0.9.17)** · 2026-11-16
+> **最新版本：[0.9.18](https://github.com/kryspal/kryspal-media/releases/tag/v0.9.18)** · 2026-11-23
 >
-> - 发现页改版：分栏移到大图下方，多选批量求片并有偏好确认，“我的请求”分为三类列表，新增“我的订阅”、新建订阅表单和一周日历
-> - 大屏幕上的海报和背景图更清晰：按 1440p、4K 屏幕取图，最宽 3840 像素，不放大
-> - 发现插件的新能力：页面动作、订阅、日历、从横图裁出海报（插件 SDK v0.11.0）；Seerr 连接器 1.1.0 新增日历
+> - Tailscale 远程访问：免费的官方插件把服务器接入你的 tailnet，提供 https 地址，家人用 Tailscale 账号就能免密登录
+> - 支持反向代理：Kryspal App 经 Nginx 等反向代理也能登录，代理没把地址转过来时后台会提示
+> - 安全与稳定：Go 1.27.4 修复一个可以让服务器崩溃的 HTTP 漏洞，网盘播放断线续接时用缓存的直链，扫描结束后显示变化
 >
 > [全部版本](CHANGELOG.md)
 <!-- latest:end -->

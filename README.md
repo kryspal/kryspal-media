@@ -24,11 +24,11 @@
 <p align="center"><strong><a href="https://demo.kryspal.net/?lang=en">Live demo</a></strong>: browse a sample library and the admin console in your browser. Sample data only.</p>
 
 <!-- latest:start -->
-> **Latest release: [0.9.17](https://github.com/kryspal/kryspal-media/releases/tag/v0.9.17)** · 2026-11-16
+> **Latest release: [0.9.18](https://github.com/kryspal/kryspal-media/releases/tag/v0.9.18)** · 2026-11-23
 >
-> - Discover, redesigned: tabs below the large banner, several titles requested at once with a preferences check, My requests in three lists, and My subscriptions with a new-subscription form and a week calendar
-> - Sharper artwork on large screens: posters and backdrops are served at up to 3840 px wide, picked for 1440p and 4K displays, never upscaled
-> - New abilities for Discover plugins: page actions, subscriptions, a calendar and poster crops from landscape images (plugin SDK v0.11.0); the Seerr connector 1.1.0 adds the calendar
+> - Remote access with Tailscale: a free official plugin puts the server on your tailnet with an https address, and family members can sign in without a password using their Tailscale account
+> - Works behind reverse proxies: Kryspal apps sign in through Nginx and similar proxies, and the admin console tells you when the proxy hides the address
+> - Security and reliability: Go 1.27.4 fixes an HTTP flaw that could crash the server, cloud-drive playback reconnects with the cached direct link, and finished scans show what changed
 >
 > [All releases](CHANGELOG.md)
 <!-- latest:end -->

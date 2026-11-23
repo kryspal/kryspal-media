@@ -2,6 +2,23 @@
 
 What changed for you in each release, newest first. The full notes, install and upgrade steps are on each release page.
 
+## [0.9.18](https://github.com/kryspal/kryspal-media/releases/tag/v0.9.18) · 2026-11-23
+
+- Network access plugin with Tailscale built in (free on every plan): an https address on ts.net, with the certificate requested automatically
+- Sign in and check the state in the plugin's own settings; System → Network now only shows the address
+- Passwordless sign-in by Tailscale account: an administrator binds people, or members bind themselves in their own settings, confirming with their password or PIN. Administrator accounts always need a password
+- When someone is no longer seen on the network, passwordless sign-in pauses by itself
+- A "Watching from outside" card with steps and a QR code
+- Uninstalling the plugin signs this device out of the network
+- Kryspal apps can now sign in through a reverse proxy such as Nginx, and the admin console tells you when the proxy did not pass the address on
+- Cloud drives: when playback reconnects midway, a still-valid cached direct link is used first, so the drive is asked for fewer links
+- After a scan task ends it shows how many items were added, updated and went missing; finished tasks no longer show a progress bar
+- Fixed: the first screen of ASS subtitles now shows while paused in the web player
+- Fixed: in the web player's fill-the-screen mode, or after the window is resized while playing, ASS lines at the bottom stay inside the picture
+- Danmaku on the same row keep a gap between them instead of overlapping
+- Plugin SDK v0.12.0: the network access and network identity capabilities, the Plugin.Uninstall callback before an uninstall, and CheckIdentities. Needs server 0.9.18
+- Security: Go 1.27.4 (fixes an HTTP flaw that could crash the server) and PostgreSQL 16.16, plus minor updates of third-party libraries
+
 ## [0.9.17](https://github.com/kryspal/kryspal-media/releases/tag/v0.9.17) · 2026-11-16
 
 - A calmer layout: the sections now sit in a row of tabs below the featured image, and a round search button at the left end of the row searches the source you are in
